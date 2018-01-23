@@ -22,3 +22,7 @@ chown -R 3500:3500 /data
 # usermod -aG docker sensor
 # su - sensor
 docker-compose -f ~/sensor/docker-compose.yml up -d
+
+clear
+
+echo "Honeypot node successfully installed"
