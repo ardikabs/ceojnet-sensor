@@ -21,4 +21,4 @@ mv ~/sensor/ /home/sensor/sensor
 
 usermod -aG docker sensor
 su - sensor
-docker-compose -f /home/sensor/docker-compose.yml up -d
+docker-compose -f /home/sensor/sensor/docker-compose.yml up -d
